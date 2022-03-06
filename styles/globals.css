@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -14,3 +21,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.text-primary {
+  color: #263F9B;
+}
+
+.font-family-serif {
+  font-family: 'DM Serif Display', serif;
+}
+
+.font-family-sans {
+  font-family: 'Montserrat', sans-serif;
+}
+

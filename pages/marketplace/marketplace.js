@@ -2,7 +2,7 @@ import Explore from "./explore/explore"
 import Faqs from "./faqs/faqs"
 import Landing from "./landing/landing"
 import Trending from "./trending/trending"
-import { faqsData, footerData, interactionProps, trendingItems } from "./mockdata"
+import { faqsData, footerData, interactionProps, trendingItems } from "../../resources/mockdata"
 import Footer from "./footer/footer"
 
 /**

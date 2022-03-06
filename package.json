@@ -5,15 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
-    "embla-carousel-react": "^6.2.0",
-    "html-react-parser": "^1.4.8",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "html-react-parser": "1.4.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

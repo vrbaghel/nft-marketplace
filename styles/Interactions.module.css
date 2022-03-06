@@ -1,0 +1,11 @@
+.container {
+    background: linear-gradient(180deg, rgba(192, 197, 207, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(120px);
+    top: -4em;
+}
+
+@media screen and (max-width: 500px)  {
+    .container {
+        top: -8em;
+    }
+}

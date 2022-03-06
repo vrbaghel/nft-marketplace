@@ -1,0 +1,24 @@
+.container {
+    height: 110vh;
+}
+
+.leftSection {
+    background: rgba(0, 74, 223, 0.24);
+    backdrop-filter: blur(30px);
+}
+
+.gradientText {
+    background: linear-gradient(90deg, #B6DCFF, #70C9BE, #D6C8FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.promoNft {
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 10px, rgba(0, 0, 0, 0.3) 10px 10px 10px, rgba(0, 0, 0, 0.2) 20px 20px 10px, rgba(0, 0, 0, 0.1) 30px 30px 10px, rgba(0, 0, 0, 0.05) 45px 45px 10px;
+}
+
+@media screen and (max-width: 500px)  {
+    .container {
+        height: auto;
+    }
+}

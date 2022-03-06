@@ -22,13 +22,15 @@ export default class Accordion extends React.Component {
   componentWillMount() {
     let items = []
 
-    this.props.data.forEach((item) => {
-      items.push({
-        title: item.title,
-        content: item.content,
-        open: false,
+    if (this.props && this.props.data) {
+      this.props.data.forEach((item) => {
+        items.push({
+          title: item.title,
+          content: item.content,
+          open: false,
+        })
       })
-    })
+    }
 
     this.setState({
       items: items,

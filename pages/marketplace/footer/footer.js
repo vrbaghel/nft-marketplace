@@ -9,8 +9,9 @@ import Image from "next/image"
  * @return {*}
  */
 export default function Footer({ data }) {
-  return (
-    <section className='grid grid-cols-6 grid-rows-2 lg:grid-rows-none'>
+  return <>
+    {data ? (
+      <section className='grid grid-cols-6 grid-rows-2 lg:grid-rows-none'>
       {data.brand ? (
         <div className={`${styles.leftSection} col-span-6 lg:col-span-3 flex flex-col px-10 lg:px-20 py-5 lg:py-20 justify-between`}>
           {/* brand details */}
@@ -73,5 +74,6 @@ export default function Footer({ data }) {
         <></>
       )}
     </section>
-  )
+    ) : (<></>)}
+    </>
 }

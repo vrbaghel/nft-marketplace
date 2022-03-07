@@ -11,7 +11,7 @@
 
 
 ## Demo
-Here is a working live demo :  
+Here is a working live demo :  https://nft-marketplace-demo.herokuapp.com/
 
 
 ## Site

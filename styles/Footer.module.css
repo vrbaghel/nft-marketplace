@@ -1,3 +1,7 @@
+.container {
+    grid-auto-rows: minmax(min-content, max-content);
+}
+
 .leftSection {
     background: linear-gradient(0deg, #458DEA 10%,#458DEA 10%,#E5E5E5 100%);
 }

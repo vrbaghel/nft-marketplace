@@ -11,13 +11,13 @@ export default function Header() {
     <section className='absolute bg-transparent w-full top-0 left-0 z-20 px-5 lg:px-20 py-5 flex justify-between items-center'>
       {/* brand details: name, logo */}
       <div className='header-brand flex gap-2 items-center cursor-pointer'>
-        <Image priority src='/assets/icons/app-logo.png' height={30} width={30} alt='app-icon' />
+        <Image priority src='/assets/icons/app-logo.svg' height={30} width={30} alt='app-icon' />
         <h1 className='font-family-serif text-white text-2xl'>OpenSea</h1>
       </div>
       {/* header interactions: search, wallet, sidebar */}
-      <div className='flex gap-8 items-center'>
+      <div className='flex gap-4 justify-end lg:gap-8 items-center'>
         {/* searchbar */}
-        <div className='relative shadow-sm'>
+        <div className='w-1/2 relative shadow-sm'>
           <div className='absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none'>
             <Image priority src='/assets/icons/search.png' height={17} width={18} alt='search' />
           </div>

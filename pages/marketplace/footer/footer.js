@@ -11,7 +11,7 @@ import Image from "next/image"
 export default function Footer({ data }) {
   return <>
     {data ? (
-      <section className='grid grid-cols-6 grid-rows-2 lg:grid-rows-none'>
+      <section className={`${styles.container} grid grid-cols-6`}>
       {data.brand ? (
         <div className={`${styles.leftSection} col-span-6 lg:col-span-3 flex flex-col px-10 lg:px-20 py-5 lg:py-20 justify-between`}>
           {/* brand details */}
@@ -23,7 +23,7 @@ export default function Footer({ data }) {
             <p className='text-white mt-10 pr-20'>{data.brand.description || ""}</p>
           </div>
           {/* social media */}
-          <div className='flex gap-5'>
+          <div className='flex mt-5 lg:mt-0 gap-5'>
             <div className='rounded-md cursor-pointer bg-blue-500 py-2 px-3'>
               <Image priority src='/assets/icons/facebook.svg' height={12} width={15} alt='facebook-icon' />
             </div>

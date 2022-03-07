@@ -18,7 +18,7 @@ export default function Landing() {
       <main className='static lg:absolute h-max lg:h-full w-full grid grid-cols-11 grid-rows-2 lg:grid-rows-none'>
         <div className={`${styles.leftSection} text-lime-50 col-span-11 lg:col-span-5 flex flex-col justify-center items-start px-10 lg:px-20 pt-32 lg:pt-10`}>
           {/* title text */}
-          <div className='text-6xl font-family-serif'>
+          <div className='text-3xl sm:text-4xl lg:text-6xl font-family-serif'>
             <h1 className='pb-1'>Discover.</h1>
             <h1 className='pb-1'>Collect. &#38; Sell.</h1>
             <h1 className=''>Extraordinary.</h1>
